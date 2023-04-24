@@ -31,7 +31,7 @@ body {
 
 .header-menu {
     display: flex;
-    gap: 80px;
+    gap: 50px;
 }
 
 .header-menu-link {
@@ -71,8 +71,6 @@ body {
 }
 
 .main-content-box-title {
-    width: 593px;
-    height: 168px;
     font-family: var(--font-titles);
     font-style: normal;
     font-weight: 400;
@@ -156,5 +154,9 @@ body {
 
     .main-content-box {
         width: auto;
+    }
+
+    .main-content-image {
+        width: 70%;
     }
 }
